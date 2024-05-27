@@ -3,6 +3,6 @@ from . import views
 
 namespace = "user_reviews"
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('book-search/', views.searchbook, name='searchbook'),
+    path('books/', views.book_list, name="book_list"),
+    path('book/<int:book_id>/', views.book_details, name="book-details"),
 ]
