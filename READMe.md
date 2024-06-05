@@ -10,3 +10,30 @@ Reviews Page
 
 Search 
 ![search bookr](https://github.com/natcobbinah/Bookr_Django/assets/10479361/c3bd7bf0-193a-4681-be9c-869be3245cbc)
+
+Adding a Publisher
+![creatingnewpublisher](https://github.com/natcobbinah/Bookr_Django/assets/10479361/4b0f8059-1dcb-433e-8680-58eb673a9c73)
+
+![createdpublisher](https://github.com/natcobbinah/Bookr_Django/assets/10479361/9c6921e6-74a8-491d-b700-c77da3dfba93)
+
+Editing a Publisher
+![editingpublisher](https://github.com/natcobbinah/Bookr_Django/assets/10479361/703b94ba-257f-4a6b-b344-7862570ca95f)
+
+![updatingpublisher](https://github.com/natcobbinah/Bookr_Django/assets/10479361/56e2e094-a79c-4cf9-8523-0a7b053e872f)
+
+Adding a Review
+![adding new review](https://github.com/natcobbinah/Bookr_Django/assets/10479361/44fac1c6-14f6-4a8b-ad88-5d5b39388c73)
+
+![review added successfully](https://github.com/natcobbinah/Bookr_Django/assets/10479361/4b89d3c4-92b4-4946-9bea-84b4ac0eac37)
+
+![review created on review page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/cb9247c8-930f-4d2a-b137-6c6da4318d52)
+
+Editing a Review
+![editing review](https://github.com/natcobbinah/Bookr_Django/assets/10479361/528f65e4-489a-4b33-8a83-03304b0eda99)
+
+![edited review with sucess](https://github.com/natcobbinah/Bookr_Django/assets/10479361/831868f6-e9c4-4455-ae10-cb4cb7d71825)
+
+![review edited shown](https://github.com/natcobbinah/Bookr_Django/assets/10479361/a0da8202-aaae-4815-afb8-3f394f382ce3)
+
+
+
