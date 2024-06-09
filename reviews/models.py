@@ -29,6 +29,8 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
     contributors = models.ManyToManyField(
         "Contributor", through="BookContributor")
+    cover = models.ImageField(upload_to="book_covers/", blank=True, null=True)
+    sample = models.FileField(upload_to="book_samples/", blank=True, null=True)
 
     def __str__(self):
         return str(self.title)

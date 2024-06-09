@@ -28,7 +28,7 @@ New {{ model_type }}
 </p>
 {% endfor %}
 
-<form method="post">
+<form method="post" {% if is_file_upload %}enctype="multipart/form-data" {% endif %}>
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit" class="btn btn-primary">
