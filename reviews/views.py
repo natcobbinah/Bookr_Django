@@ -7,9 +7,13 @@ from django.utils import timezone
 from PIL import Image
 from io import BytesIO
 from django.core.files.images import ImageFile
+from django.contrib.auth.decorators import user_passes_test, login_required
 
 
 # Create your views here.
+
+def is_staff_user(user):
+    return user.is_staff
 
 
 def book_list(request):
@@ -86,6 +90,7 @@ def book_search(request):
                   })
 
 
+@user_passes_test(is_staff_user)
 def publisher_edit(request, pk=None):
     if pk is not None:
         publisher = get_object_or_404(Publisher, pk=pk)
@@ -115,11 +120,16 @@ def publisher_edit(request, pk=None):
     })
 
 
+@login_required
 def review_edit(request, book_pk, review_pk=None):
     book = get_object_or_404(Book, pk=book_pk)
 
     if review_pk is not None:
         review = get_object_or_404(Review, book_id=book_pk, pk=review_pk)
+
+        user = request.user
+        if not user.is_staff and review.creator.id != user.id:
+            raise PermissionError
     else:
         review = None
 
@@ -152,6 +162,7 @@ def review_edit(request, book_pk, review_pk=None):
     })
 
 
+@login_required
 def book_media(request, pk):
     book = get_object_or_404(Book, pk=pk)
 
@@ -182,3 +193,7 @@ def book_media(request, pk):
         "model_type": "Book",
         "is_file_upload": True
     })
+
+
+def profile(request):
+    return render(request, 'user/profile.html')
