@@ -50,3 +50,19 @@ Book Cover if set on Book details page
 Sample pdf file, for book if set
 ![view uploaded media files with link](https://github.com/natcobbinah/Bookr_Django/assets/10479361/0a2c9b31-2a0a-4854-b994-250f00c263fd)
 
+Authentication and Permissions
+Login Page
+![login page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/6fa2dbb1-ac7c-4836-a8bc-61b6e32c38b9)
+
+Login Page on Success
+![login success page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/232482f1-a51b-48b3-8172-a48bee605c6a)
+
+Logged out Page
+![logged out page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/fe0cc8fe-c036-414b-9e00-9d0c3d90ddc2)
+
+Authentication based content if user is staff or logged-in
+![authentication based content if user is logged in](https://github.com/natcobbinah/Bookr_Django/assets/10479361/221efadc-f29b-4865-a369-1b3a494dcde4)
+
+Authentication based content if user not logged-in or an anonymous user
+![no addreview or media if user is anonymous](https://github.com/natcobbinah/Bookr_Django/assets/10479361/0b700a05-9248-4909-a8c5-3aae461fdc4f)
+
