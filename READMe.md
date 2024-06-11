@@ -67,6 +67,7 @@ Authentication based content if user not logged-in or an anonymous user
 ![no addreview or media if user is anonymous](https://github.com/natcobbinah/Bookr_Django/assets/10479361/0b700a05-9248-4909-a8c5-3aae461fdc4f)
 
 Auth and Permission based customization for logged-in users using sessions
-![session books viewed by user](https://github.com/natcobbinah/Bookr_Django/assets/10479361/aeafa991-c880-417b-90f9-bd26b18bf400)
+![session books viewed by auth user and search history](https://github.com/natcobbinah/Bookr_Django/assets/10479361/1e1b8dbd-32cd-4b63-8f87-19827486cc27)
+
 
 
