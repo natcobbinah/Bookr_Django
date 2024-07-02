@@ -69,5 +69,9 @@ Authentication based content if user not logged-in or an anonymous user
 Auth and Permission based customization for logged-in users using sessions
 ![session books viewed by auth user and search history](https://github.com/natcobbinah/Bookr_Django/assets/10479361/1e1b8dbd-32cd-4b63-8f87-19827486cc27)
 
+Custom template tags to render html on profile page 
+Books read by user
+![templatetags on profile page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/05813c4d-c9a5-4906-9852-14bc05ad39d8)
+
 
 
