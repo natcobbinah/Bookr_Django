@@ -73,5 +73,13 @@ Custom template tags to render html on profile page
 Books read by user
 ![templatetags on profile page](https://github.com/natcobbinah/Bookr_Django/assets/10479361/05813c4d-c9a5-4906-9852-14bc05ad39d8)
 
+API endpoints
+![using token authentication](https://github.com/natcobbinah/Bookr_Django/assets/10479361/f772db53-c645-4917-88e7-b4348c5db93f)
 
+![login success token](https://github.com/natcobbinah/Bookr_Django/assets/10479361/437d062c-c3c4-49ef-a214-58cdf54fc557)
 
+![api end points](https://github.com/natcobbinah/Bookr_Django/assets/10479361/69dbf2ba-5d82-420d-97c6-589aaa52efc3)
+
+![reviews api endpoint](https://github.com/natcobbinah/Bookr_Django/assets/10479361/8ebfe407-6cde-4755-8ffb-a2e4b22bd650)
+
+![curl output](https://github.com/natcobbinah/Bookr_Django/assets/10479361/cfa1d51d-a1e8-460c-b386-d07ede6ad9b0)
