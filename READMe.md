@@ -83,3 +83,16 @@ API endpoints
 ![reviews api endpoint](https://github.com/natcobbinah/Bookr_Django/assets/10479361/8ebfe407-6cde-4755-8ffb-a2e4b22bd650)
 
 ![curl output](https://github.com/natcobbinah/Bookr_Django/assets/10479361/cfa1d51d-a1e8-460c-b386-d07ede6ad9b0)
+
+Generating graphs, pdfs, and xlsx file
+Graph of user reading list
+![graph of user reading history](https://github.com/natcobbinah/Bookr_Django/assets/10479361/29b819dc-fad1-4e90-82c9-bbe3a31f6513)
+
+Download user reading list in xlsx
+![download reading history](https://github.com/natcobbinah/Bookr_Django/assets/10479361/9617de17-d0e8-44c1-9be8-f604c81adc28)
+
+Verifying download reading list in xlsx format
+![reading history in excel](https://github.com/natcobbinah/Bookr_Django/assets/10479361/8a77e2ca-51d7-43db-9926-f86025feee9a)
+
+
+
