@@ -8,7 +8,9 @@
 
 {% block content %}
 
-
+<p>
+    <a href="{% url 'reading_history' %}"> Download Reading history </a>
+</p>
 <div class="flexrow">
     <div class="infocell">
         <p>Profile</p>
@@ -50,5 +52,8 @@
     </div>
 
 </div>
+{% autoescape off %}
+{{ books_read_plot }}
+{% endautoescape %}
 
 {% endblock %}

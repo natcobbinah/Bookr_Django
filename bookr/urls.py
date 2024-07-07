@@ -19,8 +19,9 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from reviews.views import profile
-#from bookr_admin.admin import admin_site
+from reviews.views import profile, reading_history
+
+# from bookr_admin.admin import admin_site
 
 # from reviews.admin import admin_site
 
@@ -28,6 +29,8 @@ urlpatterns = [
     # path("admin/", admin_site.urls),
     path("accounts/", include("django.contrib.auth.urls")),
     path("accounts/profile/", profile, name='profile'),
+    path("accounts/profile/reading_history",
+         reading_history, name='reading_history'),
     path("admin/", admin.site.urls),
     # path("admin/", admin_site.urls), module
     path("", include("reviews.urls")),
