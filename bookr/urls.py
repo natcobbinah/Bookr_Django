@@ -34,6 +34,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # path("admin/", admin_site.urls), module
     path("", include("reviews.urls")),
+    path("", include("bookr_test.urls")),
 ]
 
 if settings.DEBUG:

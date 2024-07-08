@@ -21,6 +21,19 @@ def is_staff_user(user):
     return user.is_staff
 
 
+def index(request):
+    viewed_books = [Book.objects.get(
+        id=book_id) for book_id in request.session.get('viewed_books', [])]
+
+    context = {
+        'viewed_books': viewed_books,
+    }
+    return render(
+        request, 'reviews/index.html',
+        context
+    )
+
+
 def book_list(request):
     books = Book.objects.all()
     book_list = []
