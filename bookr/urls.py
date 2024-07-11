@@ -20,6 +20,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from reviews.views import profile, reading_history
+from debug_toolbar.toolbar import debug_toolbar_urls
 
 # from bookr_admin.admin import admin_site
 
@@ -35,7 +36,7 @@ urlpatterns = [
     # path("admin/", admin_site.urls), module
     path("", include("reviews.urls")),
     path("", include("bookr_test.urls")),
-]
+] + debug_toolbar_urls()
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
