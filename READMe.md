@@ -1,6 +1,24 @@
 # Bookr 
 A web app designed to let users browse and add book reviews (and books as well). 
 
+## Features
+```
+> Models and Migrations
+> URL Mapping, Views and Templates
+> Customizing Django Admin
+> Serving Static Files
+> Forms
+> Advanced Form Validation and Model Forms
+> Media Serving and File Uploads
+> Sessions and Authentication
+> Advanced Templating and Class-Based Views
+> Building a Rest API
+> Generating CSV, PDF, XLSX, Graphs, and other Binary files
+> Testing
+> Integrating Third-Party Libraries
+> Using a Frontend JavaScript Library with Django
+```
+
 ## Sample Screenshots from working app
 Homepage (Book lists page)
 ![homepage new](https://github.com/natcobbinah/Bookr_Django/assets/10479361/ba9bbe01-0289-491d-b43c-3d1c9cd2a709)
