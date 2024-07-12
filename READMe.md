@@ -94,5 +94,10 @@ Download user reading list in xlsx
 Verifying download reading list in xlsx format
 ![reading history in excel](https://github.com/natcobbinah/Bookr_Django/assets/10479361/8a77e2ca-51d7-43db-9926-f86025feee9a)
 
+Incorporating JavaScript framework into Django
+Recent Reviews generated with react
+![recent reviews generated with react library](https://github.com/user-attachments/assets/96207998-03a7-49bb-b0a6-110cd1fcac98)
+
+
 
 
