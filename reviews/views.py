@@ -298,3 +298,11 @@ def reading_history(request):
     response.write(data_to_download)
 
     return response
+
+
+def react_example(request):
+    return render(request, 'react-example.html', {
+        'name': 'Ben',
+        'target': '5',
+        'url': 'api/books',
+    })

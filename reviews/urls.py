@@ -20,5 +20,6 @@ urlpatterns = [
     path("publishers/<int:pk>/", views.publisher_edit, name="publisher_edit"),
     path("publishers/new/", views.publisher_edit, name='publisher_create'),
     path("books/<int:pk>/media/", views.book_media, name="book_media"),
+    path("react-example/", views.react_example, name="react_example"),
 
 ]
